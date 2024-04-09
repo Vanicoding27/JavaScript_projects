@@ -1,4 +1,4 @@
-# 30-Days-of-Code
+# 30-Days-of-JavaScript
  <h2>"30 Days of Code: HTML, CSS, and JavaScript Mastery Challenge"</h2>
 Welcome to the 30 Days of Code Challenge repository! This challenge is designed to help you master HTML, CSS, and JavaScript by building 30 projects over the course of 30 days. These projects range from easy to difficult levels, providing you with a comprehensive learning experience.
 <h2>What is this Challenge About?</h2>
