@@ -1,6 +1,10 @@
 
 body{
-    background-color:rgb(32, 29, 29)
+    background-color:#1e1e1e;
+    
+}
+.main{
+    margin-top:5vh;
 }
 h1{
     font-family: sans-serif;
@@ -8,15 +12,16 @@ h1{
     width: 240px;
     padding: 10px;
     margin: auto;
-    margin-top: 20px;
-    background-color: rgb(255, 192, 203);
+    margin-top: 50px;
+    background-color: steelblue;
+    border-radius: 10px;
 }
 .clock{
     position:relative;
     height: 300px;
     width: 300px;
-    background-color: white;
-    border: 20px solid purple;
+    background-color:whitesmoke ;
+    border: 20px solid #63462D;
     border-radius: 50%;
     margin:auto;
     margin-top: 20px;
@@ -24,6 +29,7 @@ h1{
 .time{
     font-size: 20px;
     font-family: sans-serif;
+    font-weight: 600;
     
 }
 .axis{
