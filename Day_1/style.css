@@ -1,10 +1,6 @@
 
 body{
-    background-color:#1e1e1e;
-    
-}
-.main{
-    margin-top:5vh; 
+    background-color:rgb(32, 29, 29)
 }
 h1{
     font-family: sans-serif;
@@ -12,16 +8,16 @@ h1{
     width: 240px;
     padding: 10px;
     margin: auto;
-    margin-top: 50px;
-    background-color: steelblue;
-    border-radius: 10px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.756);
 }
 .clock{
     position:relative;
     height: 300px;
     width: 300px;
-    background-color:whitesmoke ;
-    border: 20px solid #63462D;
+    background-color: white;
+    box-shadow: grey 3px 3px 3px inset, grey 4px -4px 3px inset, grey -4px 4px 3px inset, grey -4px -4px 3px inset;
+    border: 20px solid purple;
     border-radius: 50%;
     margin:auto;
     margin-top: 20px;
@@ -29,7 +25,6 @@ h1{
 .time{
     font-size: 20px;
     font-family: sans-serif;
-    font-weight: 600;
     
 }
 .axis{
@@ -38,14 +33,14 @@ h1{
     background-color: black;
     border-radius: 50%;
     position:absolute;
-    top:138px;
+    top:136px;
     left:130px;
     position: relative;
     z-index: 2;
 }
 .minute_hand{
     position:absolute;
-    top:35px;
+    top:28px;
     left:140px;
     height:120px;
     width: 8px;
@@ -54,7 +49,7 @@ h1{
 }
 .hour_hand{
     position:absolute;
-    top:50px;
+    top:54px;
     left:140px;
     height:90px;
     width: 8px;
@@ -63,7 +58,7 @@ h1{
 }
 .sec_hand{
     position:absolute;
-    top:40px;
+    top:45px;
     left:142px;
     height:100px;
     width: 5px;
@@ -89,45 +84,4 @@ h1{
     position:absolute;
     left:10px;
     top:135px;
-}
-
-#clock8{
-    position:absolute;
-    bottom:80px;
-    left:40px;
-}
-#clock7{
-    position:absolute;
-    bottom:30px;
-    left:80px;
-}
-#clock6{
-    position:absolute;
-    bottom:10px;
-    left:135px;
-}
-#clock5{
-    position:absolute;
-    bottom:30px;
-    right:80px;
-}
-#clock4{
-    position:absolute;
-    bottom:80px;
-    right:40px;
-}
-#clock3{
-    position:absolute;
-    right:10px;
-    top:135px;
-}
-#clock2{
-    position:absolute;
-    top:80px;
-    right:40px;
-}     
-#clock1{
-    position:absolute;
-    top:30px;
-    right:80px;
 }
