@@ -8,7 +8,7 @@ function Displaytime() {
     let mm = data.getMinutes();
     let ss = data.getSeconds();
 
-    let hhrotation = 30 * hh + 2 / mm + ss / 60;
+    let hhrotation = 30 * hh + 0.5 * mm + ss / 60;
     let mmrotation = 6 * mm + ss / 10;
     let ssrotation = 6 * ss;
 
